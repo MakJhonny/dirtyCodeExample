@@ -17,16 +17,14 @@ def comparar_dimensiones(y1, x2):
         exit()
 
 def ingresar_datos(m1,m2):
-    x1, y1 = tuple([int(x) for x in input("ingrese dimensiones de la primera matriz de forma -> x y: ").split()])
+    x1, y1 = dimensiones_matriz()
     leer_argumentos(x1,y1,m1)
-    x2, y2 = tuple([int(x) for x in input("ingrese dimensiones de la segunda matriz de forma -> x y: ").split()])
+    x2, y2 = dimensiones_matriz()
     comparar_dimensiones(y1, x2)
     leer_argumentos(x2,y2,m2)
 
-
-
-
-            
+def dimensiones_matriz():
+    return tuple([int(x) for x in input("ingrese dimensiones de la primera matriz de forma -> x y: ").split()])        
     
 m1 = []
 m2 = []

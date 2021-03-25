@@ -25,8 +25,11 @@ Code Smell:
 
 Refactoring: Creación de un nuevo método llamado **comparar_dimensiones()**
 
-Líneas 3 y 11: Es
+Líneas 3 y 11: El código es difícil de entender.
 
+Code Smell:
+
+Refactoring: El código se puso en una función con un nombre descriptivo y más fácil de interpretar. 
 
 
 
