@@ -1,6 +1,11 @@
 # dirtyCodeExample
 Refactorización - Ricardo Sandi
 
+El código refactorizado está en el archivo **multiplicar_matrices_by_Camacho_Encinas_Jhonny.py**
+
+El código original está en el archivo **codigo_original.py**
+
+
 Línea 1: El nombre del método definido es **multiplicar_matrices** por lo que el método solo debería hacer eso, cumpliendo con el pricipio de Single Responsability. 
 
 Code Smell: No se respeta el principio de Single Responsability para un método. 
