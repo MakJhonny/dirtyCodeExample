@@ -25,11 +25,12 @@ Code Smell:
 
 Refactoring: Creación de un nuevo método llamado **comparar_dimensiones()**
 
-Líneas 3 y 11: El código es difícil de entender.
+Líneas 24 y 25: Se definen las matrices m1 y m2 como un arreglo vacío y luego se pasan como aurgumento a la función **multiplicar_matrices(m1,m2)**, pero no se camnbian los valores de estas antes. La definición en esas líneas está demás. 
 
 Code Smell:
 
-Refactoring: El código se puso en una función con un nombre descriptivo y más fácil de interpretar. 
+Refactoring: Se pasan m1 y m2 como argumentos a la función **multiplicar_matrices** inicializándolas como m1=[] y m2=[]
+De esta manera, ya no es necesario definirlas antes de llamar a la función. Así la función **multiplicar_matrices()** ya no recibe parámetros.
 
 
 
